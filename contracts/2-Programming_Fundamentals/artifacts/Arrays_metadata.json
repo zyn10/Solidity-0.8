@@ -6,75 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_value",
-						"type": "string"
-					}
-				],
-				"name": "addValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "array2D",
+				"inputs": [],
+				"name": "dummyArray",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "stringArray",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "uintArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "view",
@@ -82,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "valueCount",
+				"name": "getLength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -96,20 +34,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "bytes",
+						"name": "myBytes",
+						"type": "bytes"
 					}
 				],
-				"name": "values",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "pushElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -126,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Arrays.sol": "Arrays"
+			"contracts/2-Programming_Fundamentals/ArrayManipulation.sol": "Arrays"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -140,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Arrays.sol": {
-			"keccak256": "0xa11da1b6cdc09b9826997553209f95fb5e9df34330185ec8bd473d5df9d00df7",
+		"contracts/2-Programming_Fundamentals/ArrayManipulation.sol": {
+			"keccak256": "0x7cb79954c135cef90669eed0d48a9fed7926fca04872414a6447d7796775f0bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://789ebfae7eb0fc679eada407cc17bf69025618c2358e0847bbc36c306deebc26",
-				"dweb:/ipfs/QmcW1dpu6Lj7fuk547KCaSUuPgaFNmmEEJnS1jpLBoEAgS"
+				"bzz-raw://7987ae4931a99bdb45f6c5902b10a88989790ff4235482459ca65c59efae7371",
+				"dweb:/ipfs/QmWYe3V79F9WkiDWTwJQVNdXmK5Rej3FunELh5cHn1vYrn"
 			]
 		}
 	},
