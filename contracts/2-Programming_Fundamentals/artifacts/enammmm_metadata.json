@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum enammmm.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2-Programming_Fundamentals/enumm.sol": "enammmm"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2-Programming_Fundamentals/enumm.sol": {
+			"keccak256": "0x8b9d11a1a464bdf96e017c1dd72c4d0f51f996dae079b728a85f19b4bb16d862",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ddd0d80a9dc02488965723cb24d05b4734a72034463f4ffafbdc196936256da3",
+				"dweb:/ipfs/QmYccfw81G4wn77zvRuGDA7HWR5PU5QSnay3qyGMHTyqvC"
+			]
+		}
+	},
+	"version": 1
+}
