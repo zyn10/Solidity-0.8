@@ -14,12 +14,30 @@
 					},
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "_name",
 						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -68,11 +86,11 @@
 	},
 	"sources": {
 		"contracts/2-Programming_Fundamentals/struct.sol": {
-			"keccak256": "0x342e8af17a20778897634f2b2bf50e5fe2cae7026424784894faa370c76a5208",
+			"keccak256": "0x28284c6db43654ae597213b89101750baa7144a61cda065e5f015cecc9aac07b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://67b46eb7392ea6a178677792abb97d366cbf025144b435669feab49661748c8d",
-				"dweb:/ipfs/QmPPTareojkTPjHetRRanLcEoJAmJcBvZtQtxAaEyFcY8D"
+				"bzz-raw://55d51dd9a20c9f824dcf4ec8748fcb176b4f6512a10465795b04683d9157b571",
+				"dweb:/ipfs/QmTaA7JRsvmWyPGWeqFCzoBwq51kCsiR2RPt9GCNMK6nqz"
 			]
 		}
 	},
